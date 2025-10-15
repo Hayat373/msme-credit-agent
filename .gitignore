@@ -1,0 +1,67 @@
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter / ML experiments ---
+.ipynb_checkpoints/
+*.ipynb
+*.pkl
+*.h5
+*.joblib
+*.model
+*.csv
+*.xlsx
+*.parquet
+
+# --- OS / System files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Environment variables ---
+.env
+.env.*
+*.secret
+*.key
+*.pem
+*.crt
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Node / Dashboard frontend (if you add React later) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+*.cache/
+
+# --- Compiled outputs ---
+*.out
+*.exe
+*.dll
+*.obj
+*.class
+*.jar
+
+# --- Temporary files ---
+*.tmp
+*.bak
+*.swp
